@@ -1,0 +1,23 @@
+{
+  "1": {
+    "fp32": {"std": 0.65, "bda": 0.70, "overhead": 7.7},
+    "fp16": {"std": 0.594, "bda": 0.701, "overhead": 18.0},
+    "dormancy": 55.0,
+    "cache_hit": 96.0,
+    "bda_layers": 9
+  },
+  "8": {
+    "fp32": {"std": 2.30, "bda": 2.38, "overhead": 3.5},
+    "fp16": {"std": 0.847, "bda": 0.917, "overhead": 8.3},
+    "dormancy": 55.0,
+    "cache_hit": 96.0,
+    "bda_layers": 9
+  },
+  "32": {
+    "fp32": {"std": 8.90, "bda": 9.15, "overhead": 2.8},
+    "fp16": {"std": 2.906, "bda": 3.252, "overhead": 11.9},
+    "dormancy": 55.0,
+    "cache_hit": 96.0,
+    "bda_layers": 9
+  }
+}
